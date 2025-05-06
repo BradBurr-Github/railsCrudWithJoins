@@ -71,6 +71,18 @@
           <%= @employee.notes %>
         </td>
       </tr>
+      <tr>
+        <td>Department</td>
+        <td>
+          <%= @employee.department.name %>
+        </td>
+      </tr>
+      <tr>
+        <td>Country</td>
+        <td>
+          <%= @employee.country.name %>
+        </td>
+      </tr>
     </tbody>
   </table>
   <a href="<%= employees_path %>">Back To Employee List</a>
